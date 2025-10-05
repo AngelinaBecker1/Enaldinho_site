@@ -158,3 +158,38 @@ hr {
     margin-left: 600px;
 }
 
+.about-preview {
+    padding: 90px 10%;
+    background-color:#c71111;
+    margin-top: 30px;
+}
+
+.about-preview h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 20px;
+    margin-left: -50px;
+    
+}
+
+.about-preview h3 {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-left: -50px;
+    color: white;
+}
+
+ .corrida p {
+    margin-top: -250px;
+    margin-left: -45px;
+}
+
+.corrida img {
+    margin-top: -120px;
+    margin-left: 650px;
+    width: 550px;
+}
+
