@@ -1,5 +1,4 @@
-
-        body{
+body{
             
     background-color: #000000;
     color: #f8f8f8;
@@ -81,12 +80,13 @@ header {
 }
 
 h1 {
-    text-align: center;
+    margin-left: 750px;
     color: #e91919;
 }
 hr{
     color: #f8f8f8;
     width: 300px;
+    margin-left: 740px;
 }
 
 .container {
@@ -94,23 +94,40 @@ hr{
     gap: 20px;
     background-color: #c71111;
     width: 500px;
-    height: 400px;
-    margin-left: 445px;
+    height: 470px;
+    margin-left: 650px;
     margin-top: 30px;
     border-radius: 20px;
 }
 
 .img {
- margin-left: 524px;
- margin-top: -350px;
+ margin-left: 720px;
+ margin-top: -450px;
 
 }
 
 .img2 {
-    margin-top: -410px;
+   margin-top: -490px;
+   margin-left: 200px;
 }
 
-.elemento {
-    margin-left: 987px;
-    margin-top: -650px;
-    
+.corrida h2 {
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+.btn {
+     display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 105px;
+}
+
+.btn:hover {
+    background-color:#a30e0e;
+}
