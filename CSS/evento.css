@@ -1,14 +1,14 @@
-body{
-            
+body {
+
     background-color: #000000;
     color: #f8f8f8;
     line-height: 1.6;
     margin: 0;
     font-family: Arial, sans-serif;
-            
-        }
 
-        .menu {
+}
+
+.menu {
     height: 100%;
     width: 0;
     position: fixed;
@@ -31,7 +31,7 @@ body{
     border-bottom: 1px solid #333;
 }
 
-.menu a:hover, .menu a.active {
+.menu a:hover{
     color: #c71111;
     background-color: rgba(210, 23, 23, 0.1);
 }
@@ -83,7 +83,8 @@ h1 {
     margin-left: 750px;
     color: #e91919;
 }
-hr{
+
+hr {
     color: #f8f8f8;
     width: 300px;
     margin-left: 740px;
@@ -98,17 +99,18 @@ hr{
     margin-left: 650px;
     margin-top: 30px;
     border-radius: 20px;
+    transition: transform 0.3s ease, box-shodow 0.3s ease;
 }
 
 .img {
- margin-left: 720px;
- margin-top: -450px;
+    margin-left: 720px;
+    margin-top: -450px;
 
 }
 
 .img2 {
-   margin-top: -490px;
-   margin-left: 200px;
+    margin-top: -490px;
+    margin-left: 200px;
 }
 
 .corrida h2 {
@@ -117,7 +119,7 @@ hr{
 }
 
 .btn {
-     display: inline-block;
+    display: inline-block;
     background-color: #000000;
     color: white;
     padding: 12px 25px;
@@ -129,5 +131,5 @@ hr{
 }
 
 .btn:hover {
-    background-color:#a30e0e;
+    background-color: #a30e0e;
 }
