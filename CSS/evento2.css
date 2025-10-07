@@ -29,7 +29,7 @@ body {
     border-bottom: 1px solid #333;
 }
 
-.menu a:hover, .menu a.active {
+.menu a:hover {
     color: #c71111;
     background-color: rgba(210, 23, 23, 0.1);
 }
@@ -78,7 +78,7 @@ header {
 }
 
 .img {
-margin-top: 40px;
+    margin-top: 40px;
 }
 
 .titulo {
@@ -114,18 +114,18 @@ p {
 }
 
 .data {
-     margin-left: 595px;
+    margin-left: 595px;
     font-size: 30px;
 }
 
-.data h1{
+.data h1 {
     margin-left: 50px;
     font-size: 20px;
     margin-top: -40px;
 }
 
 .local2 {
-     margin-left: 600px;
+    margin-left: 600px;
     font-size: 30px;
 }
 
@@ -136,7 +136,7 @@ p {
 }
 
 .local2 p {
-     margin-left: 50px;
+    margin-left: 50px;
     font-size: 15px;
     margin-top: -15px;
 }
@@ -147,20 +147,20 @@ p {
 }
 
 .data2 h1 {
-     margin-left: 50px;
+    margin-left: 50px;
     font-size: 20px;
     margin-top: -40px;
 }
 
 hr {
-   
+
     width: 500px;
     margin-left: 600px;
 }
 
 .about-preview {
     padding: 90px 10%;
-    background-color:#c71111;
+    background-color: #c71111;
     margin-top: 30px;
 }
 
@@ -171,7 +171,7 @@ hr {
     color: black;
     margin-top: 20px;
     margin-left: -50px;
-    
+
 }
 
 .about-preview h3 {
@@ -182,7 +182,7 @@ hr {
     color: white;
 }
 
- .corrida p {
+.corrida p {
     margin-top: -250px;
     margin-left: -45px;
 }
@@ -192,4 +192,3 @@ hr {
     margin-left: 650px;
     width: 550px;
 }
-
