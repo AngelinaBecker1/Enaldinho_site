@@ -85,14 +85,14 @@ header {
 }
 
 main.eventos {
-    padding: 20px 20px 40px; 
+    padding: 20px 20px 40px;
     max-width: 1000px;
     margin: auto;
 }
 
 main.eventos h1 {
     text-align: center;
-    margin-top: 10px; 
+    margin-top: 10px;
     color: #e91919;
 }
 
@@ -114,3 +114,23 @@ main.eventos h1 {
     margin-bottom: 8px;
     font-size: 16px;
 }
+
+.buttonzinhu {
+    display: inline-block;
+    background-color: #e91919;
+    color: #f8f8f8;
+    padding: 10px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  
+}
+
+.buttonzinhu:hover {
+    background-color: #c71111;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+  }
