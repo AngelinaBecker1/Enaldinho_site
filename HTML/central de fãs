@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enaldinho - Central De Fãs</title>
+    <link rel="stylesheet" href="../CSS/centraldefas.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="Pag_inicial.html"><img
+                    src="../IMG/21_22_09_431_logo-peito-fundo-preto11-4a938b90da8f9191b516279178182954-1024-1024-removebg-preview.png"
+                    alt="Enaldinho"></a>
+        </div>
+
+        <nav class="menu" id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="Pag_inicial.html" class="active">Início</a>
+            <a href="biografia.html">Biografia</a>
+            <a href="Show.html">Shows</a>
+            <a href="Loja.html">Loja</a>
+            <a href="evento.html">Evento</a>
+            <a href="centraldefas.html">Central de Fãs</a>
+        </nav>
+
+        <button class="menu-btn" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </button>
+    </header>
+    <div class="showzinho img">
+        <img src="../IMG/imagem show.jpg" alt="showzinho" width="700px"> 
+    </div>
+
+    <div class="form-container">
+        <h2>Cadastre-se em nosso clube de vantagens</h2>
+        <form id="cadastroForm" onsubmit="return validateForm('cadastroForm') && showSuccessMessage()">
+            <div class="form-group">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required minlength="6">
+            </div>
+
+            <div class="form-group">
+                <label for="confirmarSenha">Confirmar senha</label>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" required minlength="6">
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+</body>
+<script src="../JS/script.js"></script>
+</html>
