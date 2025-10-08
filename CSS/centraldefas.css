@@ -212,7 +212,6 @@ header {
 }
 
 .form-container {
-
     max-width: 500px;
     padding: 40px;
     background: white;
@@ -220,13 +219,12 @@ header {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin-left: 850px;
     margin-top: -480px;
-
 }
 
 .form-container h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #333;
+    color: #e91919;
 }
 
 .form-group {
@@ -278,3 +276,7 @@ button[type="submit"]:hover {
     margin-left: 60px;
 }
 
+.titulozinho h1{
+    color: #e91919;
+    margin-left: 650px;
+}
