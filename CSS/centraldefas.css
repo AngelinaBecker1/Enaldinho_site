@@ -29,8 +29,7 @@ body {
     border-bottom: 1px solid #333;
 }
 
-.menu a:hover,
-.menu a.active {
+.menu a:hover {
     color: #c71111;
     background-color: rgba(210, 23, 23, 0.1);
 }
