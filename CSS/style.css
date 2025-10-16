@@ -209,3 +209,7 @@ header {
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
+.card a{
+    color: white;
+    text-decoration: none;
+}
